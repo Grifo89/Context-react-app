@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-import Tracks from '../tracks/Tracks'
+import Tracks from '../tracks/Tracks';
+import Search from '../tracks/Search';
+
 
 /**
  * Index
@@ -7,6 +9,7 @@ import Tracks from '../tracks/Tracks'
 const Index = () => {
   return(
     <Fragment>
+      <Search/>
       <Tracks/>
     </Fragment>
   )

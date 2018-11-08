@@ -11,7 +11,7 @@ class Tracks extends Component { // eslint-disable-line react/prefer-stateless-f
       <Consumer>
         {value => {
           const { track_list, heading } = value;
-          console.log(value);
+          // console.log(value);
           if (track_list === undefined || track_list.length === 0) {
             return <Spinner/>
           } else {
